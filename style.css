@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  background: #f2f2f2;
+}
+
+/* .all {
+  background: white;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+.topbutton {
+  height: 48px;
+  width: 150px;
+  border-radius: 8px;
+  background: #e8eff2;
+  border: none;
+}
+
+.keyboardimgdesk,
+.keyphonedesk,
+.keyglassdesk {
+  display: none;
+}  
+
+.pre1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.typemaster {
+  padding: 24px;
+  width: 375px;
+}
+
+.firstcard {
+  padding: 24px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  margin-top: 32px;
+}
+
+.about {
+  width: 327px;
+}
+
+.firstabout {
+  width: 327px;
+}
+
+.midbutton {
+  height: 48px;
+  width: 150px;
+  background: #f16718;
+  border-radius: 8px;
+  border: none;
+}
+
+.pre2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.datetext {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7b8bad;
+  margin-top: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.keyboardimg {
+  border-radius: 20px 0 0 20px;
+  width: 372px;
+
+  float: right;
+  margin-right: -24px;
+}
+
+.keyboard {
+  margin-top: 48px;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+  margin-top: 350px;
+}
+
+.keyphone {
+  height: 193px;
+  width: 129px;
+  border-radius: 0 20px 20px 0;
+}
+
+.keyglass {
+  height: 193px;
+  width: 220px;
+  border-radius: 20px;
+}
+
+.keyboardimgtab {
+  display: none;
+}
+
+.keyphonetab {
+  display: none;
+}
+
+.keyglasstab {
+  display: none;
+}
+
+.cards {
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.wireless {
+  margin-top: 75px;
+  padding: 45px;
+}
+
+.card {
+  padding: 24px;
+}
+
+.bglogo {
+  width: 65px;
+  height: 65px;
+  background: #f16718;
+  border-radius: 16px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+  margin-top: 48px;
+}
+
+p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+  margin-top: 24px;
+}
+
+h6 {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.first-part {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.second-part {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+@media (min-width: 768px) {
+  .firstcard {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  
+
+  .typemaster {
+    margin-top: 94px;
+    margin: auto;
+  }
+
+  .images {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  .wireless {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 52px;
+    gap: 36px;
+  }
+
+  .firstabout {
+    width: 398px;
+    text-align: left;
+  }
+
+  h3 {
+    width: 255px;
+    text-align: left;
+  }
+
+  .keyboard {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .keyboardimgtab {
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 20px 0 0 20px;
+    height: 425px;
+    margin-right: -110px;
+  }
+
+  .keyphonetab {
+    display: block;
+    border-radius: 20px;
+  }
+
+  .keyglasstab {
+    display: block;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .about {
+    text-align: left;
+  }
+
+  h4 {
+    text-align: left;
+  }
+
+  .bglogo {
+    float: left;
+    margin-top: -70px;
+   }
+
+
+  .keyboardimg {
+    display: none;
+  }
+
+  .keyphone {
+    display: none;
+  }
+
+  .keyglass {
+    display: none;
+  }
+
+
+
+  .footer {
+    padding: 30px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+  }
+
+  .firstabout {
+    width: 398px;
+  }
+
+  .compatible {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .bluetooth {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .battery {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .light {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+
+}
+
+@media (min-width: 1440px) {
+  .keyboardimgtab {
+    display: none;
+  }
+
+  .keyphonetab {
+    display: none;
+  }
+
+  .keyglasstab {
+    display: none;
+  }
+
+  .keyboardimg {
+    display: none;
+  }
+
+  .keyphone {
+    display: none;
+  }
+
+  .about {
+    text-align: left;
+  }
+
+  h4 {
+    text-align: left;
+  }
+
+  
+
+
+  .keyboardimgdesk {
+    display: block;
+    height: 480px;
+    width: 540px;
+    border-radius: 20px;
+  }
+
+  .keyphonedesk {
+    display: block;
+    height: 480px;
+    width: 255px;
+    border-radius: 20px;
+  }
+
+  .keyglassdesk {
+    display: block;
+    height: 480px;
+    width: 445px;
+    border-radius: 20px;
+  }
+
+
+
+  .about {
+    width: 255px;
+  }
+
+  .firstabout {
+    width: 255px;
+  }
+
+  .secondcard {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wireless {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstbox {
+    width: 255px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #e8eff2;
+    margin-top: 50px;
+    margin-right: -100px;
+    float: right;
+  }
+
+  .keyboardsection {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: hidden;
+  }
+
+  .secondbox {
+    height: 236px;
+    width: 255px;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+    margin-top: 275px;
+    margin-left: -100px;
+  }
+
+  .secondcard {
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  
+
+  .firstcard {
+    padding: 0;
+  }
+
+  .header {
+    padding: 70px 190px 50px 200px;
+  }
+
+  .typemaster {
+    padding: 0;
+  }
+
+  .images {
+    margin-left: 15px;
+  }
+
+  .bglogo {
+   float: left;
+   margin-top: -70px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 140px;
+  }
+
+  .compatible {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .bluetooth {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .battery {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .light {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+}
+
+
+
